@@ -17,6 +17,7 @@ class ListContainer extends React.Component {
   }
 
   componentWillMount() {
+    //check to see if the Board exists
     this.props.boards.find(b => b.id === this.props.active_board)
       ? null
       : this.props.onActiveBoard(-1);

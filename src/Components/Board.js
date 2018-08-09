@@ -5,10 +5,6 @@ import { deleteBoard } from "../Actions/boardActions";
 import { connect } from "react-redux";
 
 class Board extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div
